@@ -19,17 +19,17 @@ describe('TaskManager', () => {
         expect(taskManager.getAllTasks()).not.toContainEqual(task);
     });
 
+    it('should get a task by id', () => {
+        const task = taskManager.addTask('New Task')
+
+        expect(taskManager.getTaskById(task.id)).toBe(task);
+    });
+
     it('should get all tasks', () => {
         const task1 = taskManager.addTask('New Task 1')
         const task2 = taskManager.addTask('New Task 2')
 
         expect(taskManager.getAllTasks()).toStrictEqual([task1, task2]);
-    });
-
-    it('should get a task by id', () => {
-        const task = taskManager.addTask('New Task')
-
-        expect(taskManager.getTaskById(task.id)).toBe(task);
     });
 
     it('should change a task completed', () => {

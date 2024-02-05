@@ -8,6 +8,27 @@ A aplicação possui as seguintes classes:
 - *TaskList*: Gerencia uma lista de tarefas
 - *TaskManager*: Interface para interagir com a lista de tarefas
 
+## Sobre os testes elaborados
+Para cada classe foram definidos testes para os respectivos métodos.
+
+#### Task.test.js
+- Valida a criação de tasks
+- Verifica a alteração de status de uma task
+
+#### TaskList.test.js
+- Verifica a adição de task em uma lista
+- Verifica a remoção de task de uma lista
+- Verifica o retorno de uma task a partir do seu ID
+- Verifica o retorno da lista de todas as tasks
+- Verifica a alteração de status de uma task
+
+#### TaskManager.test.js
+- Verifica a adição de task em uma lista
+- Verifica a remoção de task de uma lista
+- Verifica o retorno de uma task a partir do seu ID
+- Verifica o retorno da lista de todas as tasks
+- Verifica a alteração de status de uma task
+
 ## Como configurar o ambiente e executar os testes
 1. Instalar Node.js
 2. Dentro da pasta do projeto, instalar as dependências utilizando:
