@@ -1,7 +1,7 @@
 # Trabalho de Testes Unitário - Engenharia de Software 1
 
 ## Sobre a aplicação
-Foi criada uma aplicação para simular uma lista de tarefas (To-Do List), que permite ao usuário adicionar, remover, listar e alterar o status de completo de uma tarefa.
+Foi criada uma aplicação para simular uma lista de tarefas (To-Do List), que permite ao usuário adicionar, remover, listar e alterar o status de completo de uma tarefa. A aplicação utiliza Jest para implementação de testes unitários.
 
 A aplicação possui as seguintes classes:
 - *Task*: Representa uma tarefa individual
